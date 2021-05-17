@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+}
+header {
+    background-color: rgb(224, 69, 100);
+    background-image: linear-gradient(160deg, rgb(224, 69, 100) 0%, rgb(223, 128, 147) 100%);
+    min-height: 100px;
+    display: flex;
+    height: 120px;
+    padding: 0 20px;
+    margin: 0 auto;
+    max-width: 990px;
+    width: 100%;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+nav ul,
+nav il {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #727272;
+}
+nav .active a,
+nav a:hover {
+    background-color: #888;
+    color: #fff;
+}
+.content {
+    display: flex;
+    min-height: 600px;
+    width: 100%;
+    max-width: 990px;
+    display: flex;
+    justify-content: space-between;
+}
+  
+.botao{
+    display: flex;
+    margin:auto;
+    height: 50px;
+    width: 200px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background: background-color rgb(224, 69, 100);
+    background-image: linear-gradient(160deg, rgb(224, 69, 100) 0%, rgb(223, 128, 147) 100%);
+    text-decoration: none;
+    font-family: arial;
+    font-weight: bold;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+    margin-top: 100px;
+}
+h1 {
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+}
+p {
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+
+}
+
+main {
+    flex: 1;
+    background-color: #999;
+    
+}
+footer {
+    background: background-color rgb(221, 145, 164);
+    min-height: 100px;
+}
+address {
+    color: #8c8c8c;
+    font-style: normal;
+    margin: 30px;
+    justify-content: center;
+    text-align: center;
+}
+.footer_copy {
+    border-top: 1px solid #5c5c5c ;
+    height:40px;
+    line-height:40px;
+    color: #8c8c8c;
+    font-size: 12px;
+    justify-content: center;
+    text-align: center;
+  }
